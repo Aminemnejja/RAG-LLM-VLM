@@ -1,0 +1,33 @@
+# RAG Pipeline for Medical Dermatology
+# Requirements
+
+# Core ML/AI
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.0
+
+# Vector Store
+faiss-cpu>=1.7.4  # Use faiss-gpu for GPU support
+
+# OpenAI API
+openai>=1.0.0
+
+# Image Processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# PDF Processing (optional, for document loading)
+pymupdf>=1.23.0  # ou pdfplumber>=0.10.0
+
+# Text Processing
+rank-bm25>=0.2.2  # For BM25 reranking fallback
+
+# Progress bars
+tqdm>=4.65.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Development
+python-dotenv>=1.0.0
