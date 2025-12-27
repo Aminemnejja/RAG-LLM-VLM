@@ -93,4 +93,4 @@ Documents → Chunking → Embeddings → FAISS → Retriever → LLM/VLM → Di
 ```
 
 WORKFLOW 
-![alt text](image.png)
+![ alt text](Workflow.png)
