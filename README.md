@@ -92,5 +92,4 @@ python -m pytest tests/ -v
 Documents → Chunking → Embeddings → FAISS → Retriever → LLM/VLM → Diagnostic
 ```
 
-WORKFLOW 
 ![ alt text](Workflow.png)
